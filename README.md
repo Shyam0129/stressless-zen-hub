@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# Stress Predicting System
 
-## Project info
+A web-based application built with React that predicts stress levels based on user input. This project is part of a mental health tech initiative aiming to provide accessible, real-time stress analysis using machine learning or predefined logic.
 
-**URL**: https://lovable.dev/projects/8c63d221-b048-482a-8627-35f42f56cf8f
+---
 
-## How can I edit this code?
+## 🚀 Tech Stack
 
-There are several ways of editing your application.
+- *Frontend:* React.js, HTML5, CSS3, JavaScript
+- *State Management:* React Hooks / Context API (optional)
+- *Styling:* CSS Modules / TailwindCSS / Bootstrap (your choice)
+- *APIs / Backend (if any):* Add details here if connected
+- *Deployment:* GitHub Pages / Vercel / Netlify (optional)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8c63d221-b048-482a-8627-35f42f56cf8f) and start prompting.
+## 📌 Problem Statement
 
-Changes made via Lovable will be committed automatically to this repo.
+Stress is a common issue affecting people globally. Early detection of stress can help in managing mental health better. This system allows users to input behavioral or physiological data and get an estimated stress level using a simple and intuitive interface.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- User-friendly UI for data input
+- Real-time stress prediction (rule-based or via API/ML model)
+- Visual indicators (like color-coded stress levels)
+- Mobile responsive design
+- Optional: Save past results for tracking
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📷 Screenshots
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+> Add screenshots or a screen recording/gif here  
+> Example:  
+> ![Screenshot](./screenshots/homepage.png)
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📦 Installation & Running Locally
 
-**Edit a file directly in GitHub**
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/stress-predicting-system.git
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# 2. Navigate to project directory
+cd stress-predicting-system
 
-**Use GitHub Codespaces**
+# 3. Install dependencies
+npm install
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8c63d221-b048-482a-8627-35f42f56cf8f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# 4. Start development server
+npm start
